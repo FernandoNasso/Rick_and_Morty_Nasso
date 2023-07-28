@@ -1,0 +1,47 @@
+.CardsContainer{
+    /* width: auto;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    padding: 2em; */
+
+width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 30px;
+    margin: auto;
+    padding: 2em;
+    box-sizing: border-box;
+    overflow: auto;
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  

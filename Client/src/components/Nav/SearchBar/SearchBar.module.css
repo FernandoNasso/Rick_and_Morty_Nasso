@@ -1,0 +1,31 @@
+.SearchBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.SearchBar input[type="search"] {
+    width: 200px; /* Ajusta el ancho de la caja de búsqueda según tus necesidades */
+    height: 40px; /* Ajusta la altura de la caja de búsqueda según tus necesidades */
+    padding: 0,5em;
+    border: 2px solid #c81d03;
+    border-radius: 10px;
+    /* Otros estilos de la caja de búsqueda */
+  }
+
+  .SearchBar button {
+    height: 40px;
+    font-weight: bold; 
+    border: 4px ridge #c81d03;
+    border-radius: 50px;
+    padding: o,5em;
+    transition-duration: 0.4s;
+  }
+
+  .closeButton:hover {
+    background-color: #5f00e4; 
+    color: white;
+     
+  }

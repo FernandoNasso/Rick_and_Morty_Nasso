@@ -1,0 +1,47 @@
+.detail {  
+    display:flex;
+    align-items: center;
+    background-image: url("C:\Users\Fer Albo\OneDrive\Escritorio\Henry\rick_and_morty\rick-and-morty\Client\src\assets\img\rick_y_m_fondo.jpg");
+    height:65%;
+    width: 70%;
+    padding: 5em;
+    margin:auto;
+    border: 1px solid #0223f8;
+    box-shadow: 5px 5px 3px 0px #0223f8;
+ }
+
+ .imageStyle {
+    /* width:max-content; */
+    height: 350px;
+    border-radius: 10px;
+    border: 2px solid #c81d03;
+    transition: transform 0.3s ease;
+    
+ }
+ .imageStyle:hover {
+    transform: scale(1.1);
+ }
+ 
+ .detail h2 {
+    background-color: #6c6a70;
+    margin-left: 70px;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 40px;
+    color: #ff9419;
+    border: ridge 10px #6c6a70; 
+    box-shadow: 3px 3px 3px 1px  rgba(255, 0, 0, 0.75);
+    text-shadow: 10px 10px 10px  rgb(1, 47, 1);
+ }
+ 
+ .detail h3 {
+    background-color: #6c6a70;
+    margin-left: 70px;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    text-shadow: -1px 1px 21px rgba(235,255,18,0.98);
+    border: ridge 6px #6c6a70; 
+    box-shadow: 2px 2px 2px 1px  rgba(255, 0, 0, 0.75);
+    text-align: center;
+ }
+ 
