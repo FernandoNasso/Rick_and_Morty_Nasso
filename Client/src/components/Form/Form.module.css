@@ -1,0 +1,46 @@
+.Form {
+    width: 500px;
+    height:300px;
+    border: 2px solid red;
+    margin: auto;
+    background-image: url("C:\Users\Fer Albo\OneDrive\Escritorio\Henry\rick_and_morty\rick-and-morty\Client\src\assets\img\rick_y_m_fondo.jpg");
+    border-radius: 10px;
+    padding: 1em;
+    box-shadow: 10px 10px 5px 0px rgba(255, 0, 0, 0.75);
+    text-shadow: 3px 4px 5px rgb(4, 57, 1);
+    text-align: center;
+   }
+
+   .Form h1 {
+    color: #ff9419;
+    font-size: 50px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-shadow: -2px 2px 5px rgb(1, 12, 112);
+   }
+
+   .label {
+    color: #ff9419;
+    font-size: 25px;
+   }
+
+   .input {
+    margin-top: 10px;
+    font-size: 25px;
+   }
+
+
+   .button {    
+    margin-top: 10px;
+    font-size: 25px;
+    
+    padding: auto;
+    border-radius: 10px;
+    box-shadow: 3px 3px 2px 0px rgba(255, 0, 0, 0.75);
+    transition-duration: 0.4s;
+   }
+
+   .button:hover {
+    background-color: rgb(115, 218, 12);
+    transform: scale(1.1);
+   }

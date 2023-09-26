@@ -1,0 +1,63 @@
+.container {  
+   flex: 0 0 calc(15%);
+   margin: auto;
+   justify-content: center;
+   font-size: 10px;
+   justify-items: center;
+   background-image: url("C:\Users\Fer Albo\OneDrive\Escritorio\Henry\rick_and_morty\rick-and-morty\Client\src\assets\img\rick_y_m_fondo.jpg");
+   border-radius: 10px;
+   padding: 1em;
+   box-shadow: 10px 10px 5px 0px rgba(255, 0, 0, 0.75);
+   text-shadow: 3px 4px 5px rgb(4, 57, 1);
+   color: rgb(255, 255, 255);
+   text-align: center;
+   
+}
+
+/* .H2 {
+   font-size: 15px;
+} */
+
+.closeButton {
+   width: 15%;
+   margin-left: auto;
+   margin-right: 0%;
+   display: flex;
+   justify-content: center; /* Centrado horizontal */
+   border-radius: 50%;
+   transition-duration: 0.4s;
+   font-weight:bold;
+   font-size: medium;
+}
+
+.closeButton:hover {
+  background-color: rgb(252, 0, 0); 
+  color: white;
+   
+}
+
+.imageStyle {
+   /* width:max-content; */
+   height: 220px;
+   border-radius: 150px;
+   border: 1px solid #ff9419;
+}  
+
+
+.Nombre{
+   background-color: #6c6a70;
+   padding: 3px;
+   font-size: 22px;
+   color: #ff9419;
+   border: ridge #61596d; 
+   border-radius: 20px;
+   box-shadow: 3px 3px 2px 0px rgba(255, 0, 0, 0.75);
+   text-shadow: 3px 3px 1px rgb(31, 31, 0);
+}
+.Nombre:hover {
+   background-color: rgb(255, 255, 255); 
+   color: rgb(135, 63, 0);
+   text-shadow: 3px 3px 1px rgb(255, 255, 13);
+   transform: scale(1.1);
+ }
+
